@@ -1,8 +1,8 @@
-# **Custom Object Creation Module**
+# **Wraped Object Moudle**
 
 >### WARNING:
 >#### 1. This module was primarily made for personal use.
->#### 2. This is a new module, it may have bugs or unintended behavior, you can report anything at [github](https://www.google.com/) or [Roblox Developer Forum](https://www.google.com/).
+>#### 2. This is a new module, it may have bugs or unintended behavior, you can report anything at [github](https://github.com/Ocipa/Wrapped-Object-Library/tree/master) or [Roblox Developer Forum](https://www.google.com/).
 
 ## **_Table Of Contents_**
 
@@ -171,7 +171,7 @@ instance:testMethod() --> errors: attempt to index a invalid method
 ### **Returns**
 |Return Type|Description|
 |:-|:-:|
-|"Custom" Instance|
+|"Wrapped" Instance|
 
 <br/>
 
