@@ -63,51 +63,6 @@ function create(...)
     local customInstance = module.wrapper:Wrap(instance)
 
     return customInstance
-
---[[
-
-    local className = a1 == "string" and a2 == "string" and a1
-    local template
-    local properties
-
-    do
-        return
-    end
-
-    
-    local t = table.pack(...)
-
-    local className = typeof(t[1]) == "string" and t[1]
-    local template = typeof(t[2]) == "string" or (typeof(t[2]) == "table" and t[1]) or (typeof(t[3]) == "table" and t[2]) or {}
-    local properties = (typeof(t[1]) == "table" and t[1]) or (typeof(t[2]) == "table" and t[2]) or (typeof(t[3]) == "table" and t[3]) or {}
-    
-
-    if typeof(template) == "string" then
-        template = module.template:Get(template)
-    end
-
-    assert(className or properties["ClassName"], "attempting to create a instance without a className")
-
-    local pTable = {} --the final list of properties to change from template and properties tables
-
-    for i, v in pairs(template) do
-        pTable[i] = v
-    end
-
-    for i, v in pairs(properties) do
-        pTable[i] = v
-    end
-
-    local instance = Instance.new(className or properties["ClassName"])
-    table.insert(module.instances, instance)
-
-    local customInstance = module.wrapper:Wrap(instance)
-
-    for i, v in pairs(pTable) do
-        local success, response = pcall(function()
-            instance[i] = v
-        end)
-    end--]]
 end
 
 return module

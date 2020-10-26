@@ -1,4 +1,4 @@
-# **Wraped Object Moudle**
+# **Wraped Object Module**
 
 >### WARNING:
 >#### 1. This module was primarily made for personal use.
